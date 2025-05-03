@@ -1,10 +1,15 @@
 # Godot 4+ specific ignores
 .godot/
+*.log
+*.profiledata
 
 # Godot-specific ignores
 .import/
 export.cfg
 export_credentials.cfg
+
+# Vscode ignores
+.vscode
 
 # Imported translations (automatically generated from CSV files)
 *.translation
@@ -13,3 +18,7 @@ export_credentials.cfg
 .mono/
 data_*/
 mono_crash.*.json
+
+# System ignores
+.DS_Store
+Thumbs.db
